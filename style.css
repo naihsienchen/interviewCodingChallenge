@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: top;
+  height: 100vh; /*100vh means the entire space of the view port, i.e. browsers */
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  height: inherit;
+  width: 20vw;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*float crown to right*/
+.role-status {
+  overflow: auto;
+}
+
+/*float crown to right*/
+.featured {
+  float: right;
+  clear: both;
+}
+
+img {
+  width: 10vw;
+  border-radius: 50%;
+}
+
+/*role color*/
+.role-1 {
+  background-color: #B4ADEA;
+}
+
+.role-2 {
+  background-color: #FDFFF7;
+  
+}
+
+.role-3 {
+  background-color: #FFED65;
+}
+/*
+.role-4 {
+
+}
+*/
+.role-5 {
+  background-color: #FBCAEF;
+}
+
+.role-6 {
+  background-color: #E3D3E4;
+}
+
+
